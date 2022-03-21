@@ -1,0 +1,48 @@
+div {
+    border: 1px solid blue;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+.wrapper {
+    display: grid; 
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: auto;
+}
+.leftbar {
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+}
+.leftMenu {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.leftMenu2 {
+    margin-top: 10px;
+}
+.rightbar {
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+}
+.topbar{ 
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.mainRightWrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
