@@ -2,46 +2,30 @@ html {
     font-family: 'Roboto', sans-serif, -apple-system, BlinkMacSystemFont;
 }
 div {
-    border: 1px solid blue;
-}
+    border: .5px solid blue;
+} /* apagar dps de terminar */
 body {
-    min-height: 100vh;
     margin: 0;
+}
+:root {
+    font-size: calc(.6rem + 0.5vw);
 }
 ul {
     list-style: none;
-}
-li {
-    display: flex;
-    gap: 2px;
-}
-.dashboard {
-    display: flex;
-    font-size: 2rem;
+    margin: 0;
+    padding: 0;
 }
 .wrapper {
-    display: grid; 
-    grid-template-columns: 1fr 6fr;
-}
-.leftbar {
     display: grid;
-    grid-area: 1 / 1 / -1 / 2;
-}
-.leftMenu {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-.leftMenu2 {
-    margin-top: 10px;
+    grid-template-columns: 1fr 4fr;
 }
 .rightbar {
     display: grid;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 5fr;
 }
-.topbar{ 
+.topbar {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .main {
     display: grid;
@@ -49,10 +33,10 @@ li {
 }
 .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
 }
 .mainRightWrapper {
     display: grid;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 }
