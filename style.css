@@ -1,3 +1,6 @@
+html {
+    font-family: 'Roboto', sans-serif, -apple-system, BlinkMacSystemFont;
+}
 div {
     border: 1px solid blue;
 }
@@ -8,14 +11,21 @@ body {
 ul {
     list-style: none;
 }
+li {
+    display: flex;
+    gap: 2px;
+}
+.dashboard {
+    display: flex;
+    font-size: 2rem;
+}
 .wrapper {
     display: grid; 
-    grid-template-columns: 1fr 4fr;
-    grid-auto-rows: auto;
+    grid-template-columns: 1fr 6fr;
 }
 .leftbar {
     display: grid;
-    grid-template-rows: 1fr 10fr;
+    grid-area: 1 / 1 / -1 / 2;
 }
 .leftMenu {
     display: grid;
