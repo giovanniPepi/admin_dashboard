@@ -67,5 +67,5 @@ li {
     height: 2rem;
 }
 #search {
-    width: clamp(7rem, 35vw, 34rem);
+    width: clamp(7rem, 37vw, 55rem);
 }
