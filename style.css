@@ -23,6 +23,7 @@ li {
 .leftbar {
     display: grid;
     grid-template-rows: auto auto 1fr;
+    margin-right: .1rem;
 }
 .dashboard {
     font-size: 2rem;
@@ -33,7 +34,7 @@ li {
 .wrapper {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
 }
 .rightbar {
     display: grid;
@@ -55,4 +56,16 @@ li {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+}
+.searchBar {
+    padding: .2rem;
+    display: flex;
+    align-items: center;   
+    gap: .5rem;
+}
+#searchIcon {
+    height: 2rem;
+}
+#search {
+    width: clamp(7rem, 35vw, 34rem);
 }
