@@ -30,7 +30,7 @@ li {
     font-weight: bold;
 }
 .leftMenu1 ul li p {
-    text-shadow: .1rem .1rem 2.2rem var(--grey);
+    text-shadow: .1rem .1rem 3.2rem var(--grey);
 }
 .leftMenu1 {
     margin-bottom: 2rem;
