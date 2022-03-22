@@ -29,9 +29,18 @@ li {
     margin-left: calc(.2rem + 1vw);
     font-weight: bold;
 }
-.leftMenu1 ul li p {
+.dashSetting {
     text-shadow: .1rem .1rem 3.2rem var(--grey);
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
 }
+.dashSetting:hover {
+    cursor: pointer;
+    text-shadow: .1rem .1rem 3.2rem var(--grey);
+    transition: 0.2s;
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+} 
 .leftMenu1 {
     margin-bottom: 2rem;
 }
@@ -109,6 +118,16 @@ li {
     height: 2.5rem;
     border-radius: 50%;   
 }
+img:hover {
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+img {
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
 .greeting, .greetingName {
     margin: 0;
 }
@@ -160,6 +179,8 @@ button:focus {
     grid-template-columns: .6rem 1fr;
     background: var(--white);
     border-radius: 1rem;
+    transition: 0.1s;
+    transition-timing-function: ease-in-out;    
 }
 .project:hover {
         transition: 0.3s;
