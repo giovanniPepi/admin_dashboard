@@ -72,7 +72,8 @@ li {
 .mainRightWrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
 }
 .searchBar {
     padding: .2rem;
@@ -212,5 +213,8 @@ h5 {
     font-size: .8rem;
     margin: .5rem;
 }
-
+.announcWrapper {/* 
+    display: flex;
+    flex-direction: column */;
+}
 
