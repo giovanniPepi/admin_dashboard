@@ -12,7 +12,7 @@ html {
 :root {
     font-size: calc(.6rem + 0.5vw);
     --grey: #E5E7EB;
-    --mycolor: #475569;
+    --mycolor: #64748B;
     --white: rgb(250, 250, 250);
     --greyblue: #E2E8F0;
     --orangellow: #FCD34D;
@@ -160,6 +160,10 @@ button:focus {
     grid-template-columns: .6rem 1fr;
     background: var(--white);
     border-radius: 1rem;
+}
+.project:hover {
+        transition: 0.3s;
+        transform: scale(1.03);
 }
 .colorBlock {
     border-radius: 1rem 0rem 0rem 1rem;
