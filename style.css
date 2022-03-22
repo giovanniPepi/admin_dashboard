@@ -3,7 +3,7 @@ html {
     font-family: 'Roboto', sans-serif, -apple-system, BlinkMacSystemFont;
 }
 /* div {
-    border: .1px solid blue;
+    border: .1px solid mycolor;
 } 
  */body {
     margin: 0;
@@ -12,7 +12,7 @@ html {
 :root {
     font-size: calc(.6rem + 0.5vw);
     --grey: #E5E7EB;
-    --blue: #0EA5E9;
+    --mycolor: #475569;
     --white: rgb(250, 250, 250);
     --greyblue: #E2E8F0;
     --orangellow: #FCD34D;
@@ -38,7 +38,7 @@ li {
 .leftbar {
     display: grid;
     grid-template-rows: auto auto 1fr;
-    background: var(--blue);
+    background: var(--mycolor);
     color: var(--white);
     padding: 0 1rem 0 0;
 }
@@ -134,7 +134,7 @@ li {
 }
 button {
     border: none;
-    background: var(--blue);
+    background: var(--mycolor);
     border-radius: 1.5rem;
     cursor: pointer;
     font-weight: bold;
