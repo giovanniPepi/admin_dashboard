@@ -105,8 +105,8 @@ li {
     align-self: center;
 }
 .profilePicSmall {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;   
 }
 .greeting, .greetingName {
@@ -213,6 +213,9 @@ h5 {
     gap: 1rem;
     font-size: .8rem;
     margin: .5rem;
+}
+.profileDescription > p {
+    margin: .3rem;
 }
 .announch4{
     margin-bottom: .9rem;
