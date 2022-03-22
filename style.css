@@ -213,8 +213,7 @@ h5 {
     font-size: .8rem;
     margin: .5rem;
 }
-.announcWrapper {/* 
-    display: flex;
-    flex-direction: column */;
+.yourProjects {
+    margin-left: 1rem;
+    margin-bottom: .4rem;
 }
-
