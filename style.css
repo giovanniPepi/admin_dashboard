@@ -28,6 +28,9 @@ li {
 .leftMenu1 ul li p {
     text-shadow: .1rem .1rem 2.2rem var(--grey);
 }
+.leftMenu1 {
+    margin-bottom: 2rem;
+}
 .leftbar {
     display: grid;
     grid-template-rows: auto auto 1fr;
@@ -36,6 +39,8 @@ li {
 }
 .dashboard {
     font-size: 2rem;
+    font-weight: bolder;
+    color: var(--white);
 }
 #dashImg {
     min-width: 2.5rem;
@@ -164,4 +169,7 @@ button:focus {
     padding: 1rem .5rem 1rem 0;
     justify-self: end;
     margin-right: 1rem;
+}
+.icon {
+    filter: invert(94%) sepia(1%) saturate(1560%) hue-rotate(195deg) brightness(105%) contrast(97%);
 }
