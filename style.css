@@ -146,7 +146,7 @@ button:focus {
 .project {
     display: grid;
     grid-template-rows: 1fr auto;
-    grid-template-columns: .7rem 1fr;
+    grid-template-columns: .6rem 1fr;
     background: var(--white);
     border-radius: 1rem;
 }
@@ -157,4 +157,11 @@ button:focus {
 }
 .textBlock {
     padding: 1rem 1rem 0;
+}
+.actionBlock {
+    display: flex;
+    gap: .5rem;
+    padding: .5rem 0 1rem 0;
+    justify-self: end;
+    margin-right: 1rem;
 }
