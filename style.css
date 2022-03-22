@@ -7,6 +7,7 @@ html {
 } 
  */body {
     margin: 0;
+    background-color: var(--white);
  }
 :root {
     font-size: calc(.6rem + 0.5vw);
@@ -56,7 +57,7 @@ li {
 }
 .rightbar {
     display: grid;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 6fr;
 }
 .topbar {
     display: grid;
@@ -71,7 +72,7 @@ li {
 .mainRightWrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 .searchBar {
     padding: .2rem;
@@ -83,7 +84,7 @@ li {
     height: 2rem;
 }
 #search {
-    width: clamp(7rem, 48vw, 120rem);
+    flex: 1;
     background: var(--grey);
     border: none;
     border-radius: 1.5rem;
@@ -102,8 +103,8 @@ li {
     align-self: center;
 }
 .profilePicSmall {
-    height: 2.5rem;
-    width: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 50%;   
 }
 .greeting, .greetingName {
@@ -177,6 +178,8 @@ button:focus {
     filter: invert(94%) sepia(1%) saturate(1560%) hue-rotate(195deg) brightness(105%) contrast(97%);
 }
 .announcements {
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
     background-color: var(--white);
     border-radius: 1rem;
@@ -192,10 +195,22 @@ h5 {
     background: var(--divider);
     height: .1rem;
 }
-.trending {
-}
 .flowTitle {
     grid-row: 1 / 1;
     height: 1rem;
     margin: .2rem;
-}   
+}  
+.trending {
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.trendingProfile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: .8rem;
+    margin: .5rem;
+}
+
+
