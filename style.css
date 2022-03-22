@@ -27,6 +27,7 @@ li {
     display: flex;
     gap: .5rem;
     margin-left: 1rem;
+    font-weight: bold;
 }
 .leftMenu1 ul li p {
     text-shadow: .1rem .1rem 2.2rem var(--grey);
