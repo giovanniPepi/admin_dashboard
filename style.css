@@ -40,7 +40,7 @@ li {
     grid-template-rows: auto auto 1fr;
     background: var(--blue);
     color: var(--white);
-    padding: 0 .5rem 0 0;
+    padding: 0 1rem 0 0;
 }
 .dashboard {
     font-size: 2rem;
