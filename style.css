@@ -83,7 +83,8 @@ li {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
-    gap: 1rem;
+    gap: .5rem;
+    margin-bottom: 1rem;
 }
 .searchBar {
     padding: .2rem;
@@ -242,7 +243,7 @@ h5 {
 .profileDescription > p {
     margin: .3rem;
 }
-.announch4{
+.announch4, .announcTrend {
     margin-bottom: .9rem;
 }
 .yourProjects {
