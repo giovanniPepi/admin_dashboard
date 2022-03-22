@@ -25,8 +25,8 @@ ul {
 }
 li {
     display: flex;
-    gap: .5rem;
-    margin-left: 1rem;
+    gap: .5rem; 
+    margin-left: calc(.2rem + 1vw);
     font-weight: bold;
 }
 .leftMenu1 ul li p {
@@ -43,12 +43,12 @@ li {
     padding: 0 1rem 0 0;
 }
 .dashboard {
-    font-size: 2rem;
+    font-size: calc(1rem + 0.5vw);
     font-weight: bolder;
     color: var(--white);
 }
 #dashImg {
-    min-width: 2.5rem;
+    min-width: calc(.5rem + 3.5vw);
 }
 .wrapper {
     min-height: 100vh;
