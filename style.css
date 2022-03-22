@@ -11,7 +11,9 @@ html {
     font-size: calc(.6rem + 0.5vw);
     --grey: #E5E7EB;
     --blue: #0EA5E9;
-    --white: rgb(248, 248, 248);
+    --white: rgb(250, 250, 250);
+    --greyblue: #E2E8F0;
+    --orangellow: #FCD34D;
 }
 ul {
     list-style: none;
@@ -24,12 +26,11 @@ li {
     margin-left: 1rem;
 }
 .leftMenu1 ul li p {
-    text-shadow: .2rem .2rem 2rem black;
+    text-shadow: .1rem .1rem 2.2rem var(--grey);
 }
 .leftbar {
     display: grid;
     grid-template-rows: auto auto 1fr;
-    margin-right: .5rem;
     background: var(--blue);
     color: var(--white);
 }
@@ -52,14 +53,12 @@ li {
 .topbar {
     display: grid;
     grid-template-columns: 1.8fr 1fr;
+    padding: .8rem;
 }
 .main {
     display: grid;
     grid-template-columns: 3fr 1fr;
-}
-.projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    background: var(--greyblue);
 }
 .mainRightWrapper {
     display: grid;
@@ -136,4 +135,26 @@ button {
 button:focus {
     border: none;
     outline: none;
+}
+.projects {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    padding: 1rem;
+    gap: 1rem;
+}
+.project {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: .7rem 1fr;
+    background: var(--white);
+    border-radius: 1rem;
+}
+.colorBlock {
+    border-radius: 1rem 0rem 0rem 1rem;
+    grid-row: 1 / -1;
+    background: var(--orangellow);
+}
+.textBlock {
+    padding: 1rem 1rem 0;
 }
