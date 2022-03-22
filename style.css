@@ -43,7 +43,7 @@ li {
     padding: 0 1rem 0 0;
 }
 .dashboard {
-    font-size: calc(1rem + 0.5vw);
+    font-size: calc(.5rem + 1.5vw);
     font-weight: bolder;
     color: var(--white);
 }
