@@ -177,8 +177,9 @@ button:focus {
     filter: invert(94%) sepia(1%) saturate(1560%) hue-rotate(195deg) brightness(105%) contrast(97%);
 }
 .announcements {
-    border: 1px solid blue;
     padding: 1rem;
+    background-color: var(--white);
+    border-radius: 1rem;
 }
 h5 {
     margin-top: 1rem;
@@ -192,10 +193,9 @@ h5 {
     height: .1rem;
 }
 .trending {
-    border: 1px solid blue;
 }
 .flowTitle {
     grid-row: 1 / 1;
     height: 1rem;
     margin: .2rem;
-}
+}   
