@@ -15,6 +15,7 @@ html {
     --white: rgb(250, 250, 250);
     --greyblue: #E2E8F0;
     --orangellow: #FCD34D;
+    --divider: #64748B;
 }
 ul {
     list-style: none;
@@ -37,6 +38,7 @@ li {
     grid-template-rows: auto auto 1fr;
     background: var(--blue);
     color: var(--white);
+    padding: 0 1rem 0 0;
 }
 .dashboard {
     font-size: 2rem;
@@ -69,7 +71,7 @@ li {
 .mainRightWrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
 }
 .searchBar {
     padding: .2rem;
@@ -173,4 +175,27 @@ button:focus {
 }
 .icon {
     filter: invert(94%) sepia(1%) saturate(1560%) hue-rotate(195deg) brightness(105%) contrast(97%);
+}
+.announcements {
+    border: 1px solid blue;
+    padding: 1rem;
+}
+h5 {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+.announcTitle{
+    font-size: .8rem;
+}
+.divider {
+    background: var(--divider);
+    height: .1rem;
+}
+.trending {
+    border: 1px solid blue;
+}
+.flowTitle {
+    grid-row: 1 / 1;
+    height: 1rem;
+    margin: .2rem;
 }
